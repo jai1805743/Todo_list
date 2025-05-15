@@ -1,0 +1,8 @@
+html, body {
+    overflow-x: hidden;
+  }
+    .completed{
+        text-decoration: line-through;
+        color: green;
+    }
+  

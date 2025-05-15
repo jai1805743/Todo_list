@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script src="jai.js"></script>
+    <link rel="stylesheet" href="index.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Font Awesome CDN (latest version) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body class="bg-gradient-to-r from-purple-100 to-blue-200">
+    <div class="backimage">
+        <img src="image1.jpg" alt="" class="lg:w-screen lg:h-32 rounded-t-xl w-screen h-32">
+    </div>
+    <div class="overall lg:flex lg:flex-row-reverse  ">
+         <div class="justify-center items-center my-5 mx-5">
+        
+    <div class="container bg-gradient-to-t from-gray-100 to-purple-50 lg:w-[850px] lg:h-[400PX] rounded-t-xl w-[320px] ml-5">
+        <div class="date text-3xl justify-end text-end pr-5 text-blue-500 cursor-pointer hover:text-blue-700"><i class="fa-duotone fa-solid fa-calendar-days"></i></div>
+        <div id="newtask" class="text-center">
+            <div class="name lg:text-3xl -mt-7 font-bold text-blue-400" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Todo List For Daily Task</div>
+        
+            <input type="text" placeholder="Enter the task" id="taskinput" class="my-5 border border-gray-500 border-t-0 border-l-0 border-r-0 py-2 lg:px-40 lg:mt-28 mt-32 focus:outline-none focus:ring-2 focus:rounded-lg">
+
+            <button id="push" class="lg:px-5 lg:py-2 ml-5  px-3 py-2    rounded-lg bg-purple-300" style="font-family:monospace;">Add</button>
+        </div>
+        
+        </div>
+    </div>
+    <div class="  bg-gradient-to-r from-white to-sky-200 lg:w-96 lg:h-[400px] lg:my-5 lg:ml-1 rounded-lg w-80 h-[300px] ml-10">
+
+        <div class="firstcontent text-center font-bold text-2xl py-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            Daily Task
+        </div>
+                <div id="task" class="pt-4 font-serif text-lg text-left pl-5 text-red-600  space-y-2">
+
+        </div>
+     </div>
+
+
+    
+
+   
+    </div>
+    
+</body>
+</html>
